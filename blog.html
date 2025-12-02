@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog Rumah Makan Sederhana - Cerita di balik dapur, resep tradisional, dan tips kuliner nusantara.">
+    <title>Our Blog | Rumah Makan Sederhana</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts: Classic Serif (Playfair Display) & Sans (Lato) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Lato', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                    colors: {
+                        primary: {
+                            50: '#fff7ed',
+                            100: '#ffedd5',
+                            500: '#f97316', // Orange-500
+                            600: '#ea580c', // Orange-600
+                            700: '#c2410c', // Orange-700
+                            900: '#7c2d12',
+                        },
+                        secondary: {
+                            50: '#f8fafc',
+                            100: '#f1f5f9',
+                            500: '#64748b',
+                            800: '#1e293b',
+                            900: '#0f172a', // Slate-900
+                        }
+                    },
+                    boxShadow: {
+                        'soft': '0 10px 40px rgba(0,0,0,0.1)',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-secondary-800 bg-white antialiased selection:bg-primary-100 selection:text-primary-900 h-full flex flex-col">
+
+    <!-- Header Navigation -->
+    <header class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-gray-100 transition-all duration-300 shadow-sm">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="https://d3nz123.github.io/rumah-makan-sederhana-2025-12-02-6d0vr" class="font-serif text-2xl font-bold text-primary-700 tracking-tight">
+                        RM. Sederhana
+                    </a>
+                </div>
+
+                <!-- Back Link -->
+                <div class="flex items-center">
+                    <a href="https://d3nz123.github.io/rumah-makan-sederhana-2025-12-02-6d0vr" class="text-secondary-500 hover:text-primary-600 font-medium transition-colors duration-300 flex items-center gap-2 group">
+                        <span class="group-hover:-translate-x-1 transition-transform duration-300">←</span> Back
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Blog Content -->
+    <main class="flex-grow pt-20">
+        
+        <!-- Page Header / Intro -->
+        <section class="relative py-20 lg:py-28 bg-secondary-50 overflow-hidden">
+            <!-- Background Decoration -->
+            <div class="absolute inset-0 z-0">
+                <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 rounded-full bg-primary-100 opacity-50 blur-3xl"></div>
+                <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-orange-100 opacity-50 blur-3xl"></div>
+            </div>
+
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+                <span class="inline-block py-1 px-3 rounded-full bg-primary-50 text-primary-700 text-sm font-semibold tracking-wide uppercase mb-6 border border-primary-100">
+                    Stories & Heritage
+                </span>
+                <h1 class="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-secondary-900 leading-tight mb-6 tracking-tight">
+                    Our Blog
+                </h1>
+                <p class="text-xl text-secondary-500 leading-relaxed font-light">
+                    Welcome to our culinary journal. Here we share stories about the authentic flavors of Indonesia, the health benefits of our traditional ingredients, and the warmth of communal dining that defines Rumah Makan Sederhana.
+                </p>
+            </div>
+        </section>
+
+        <!-- Blog Listings -->
+        <section class="py-20 bg-white">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <!-- Featured Post -->
+                <div class="mb-16">
+                    <h2 class="font-bold text-xl text-secondary-900 mb-8 border-b border-gray-100 pb-4">Latest Post</h2>
+                    
+                    <article class="bg-white p-8 md:p-10 rounded-2xl shadow-soft border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group relative overflow-hidden">
+                        <!-- Decorative corner styling -->
+                        <div class="absolute top-0 right-0 w-24 h-24 bg-primary-50 rounded-bl-[100px] opacity-50 transition-transform group-hover:scale-110 duration-500"></div>
+
+                        <div class="relative z-10">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="bg-primary-100 text-primary-700 text-xs font-bold px-2.5 py-0.5 rounded border border-primary-200">Featured</span>
+                                <span class="text-sm text-gray-400 font-medium tracking-wide">12/2/2025</span>
+                            </div>
+
+                            <h3 class="font-serif text-3xl md:text-4xl font-bold text-secondary-900 mb-6 leading-tight group-hover:text-primary-600 transition-colors duration-300">
+                                <a href="https://d3nz123.github.io/rumah-makan-sederhana-2025-12-02-6d0vr/blog/getting-started-with-our-platform.html" class="focus:outline-none">
+                                    Getting Started with Our Platform
+                                </a>
+                            </h3>
+
+                            <p class="text-secondary-500 text-lg leading-relaxed mb-8 font-light">
+                                Indonesia is a culinary paradise where cooking serves as a cultural ritual linking generations. At Rumah Makan Sederhana, we preserve this heritage by rejection instant powders for fresh Bumbu Dasar: red, white, and yellow spice pastes ground manually for authentic aroma. Beyond flavor, our cuisine celebrates Makan Tengah, a communal dining tradition strengthening family bonds through shared dishes. Traditional meals like Nasi Rames actually offer perfect nutritional balance, combining proteins, fibers, and the essential joy of Sambal. Amidst modern global trends, we invite you to rediscover the warmth, comfort, and unmatched deliciousness found only in truly authentic Indonesian home cooking.
+                            </p>
+
+                            <div class="pt-6 border-t border-gray-50 flex items-center justify-between">
+                                <a href="https://d3nz123.github.io/rumah-makan-sederhana-2025-12-02-6d0vr/blog/getting-started-with-our-platform.html" class="inline-flex items-center bg-primary-600 text-white px-6 py-3 rounded-full font-medium text-sm hover:bg-primary-700 transition-colors shadow-md group/btn">
+                                    Read More
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                                    </svg>
+                                </a>
+                                <div class="flex items-center text-sm text-secondary-400">
+                                    <i class="far fa-clock mr-2"></i> 5 min read
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Future Blog Posts (Empty State) -->
+                <div>
+                    <h2 class="font-bold text-xl text-secondary-900 mb-8 border-b border-gray-100 pb-4">Upcoming Stories</h2>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <!-- Placeholder Post 1 -->
+                        <div class="bg-white p-8 rounded-2xl shadow-sm border border-dashed border-gray-200 h-64 flex flex-col items-center justify-center text-center group hover:border-primary-200 hover:bg-primary-50/30 transition-all duration-300">
+                            <div class="w-12 h-12 rounded-full bg-gray-50 flex items-center justify-center mb-4 group-hover:bg-white transition-colors">
+                                <i class="fas fa-pen-nib text-gray-300 group-hover:text-primary-400"></i>
+                            </div>
+                            <h4 class="font-serif text-lg font-medium text-gray-400 mb-2">New Recipe Coming Soon</h4>
+                            <p class="text-sm text-gray-400">Stay tuned for our secret Rendang recipe.</p>
+                        </div>
+
+                        <!-- Placeholder Post 2 -->
+                        <div class="bg-white p-8 rounded-2xl shadow-sm border border-dashed border-gray-200 h-64 flex flex-col items-center justify-center text-center group hover:border-primary-200 hover:bg-primary-50/30 transition-all duration-300">
+                            <div class="w-12 h-12 rounded-full bg-gray-50 flex items-center justify-center mb-4 group-hover:bg-white transition-colors">
+                                <i class="fas fa-camera text-gray-300 group-hover:text-primary-400"></i>
+                            </div>
+                            <h4 class="font-serif text-lg font-medium text-gray-400 mb-2">Behind the Scenes</h4>
+                            <p class="text-sm text-gray-400">A look into our daily kitchen preparation.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-secondary-900 text-white border-t border-gray-800 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 lg:gap-12">
+                <!-- Column 1: Brand -->
+                <div class="col-span-1 lg:col-span-1">
+                    <a href="#" class="font-serif text-2xl font-bold text-white tracking-tight mb-6 block">
+                        RM. Sederhana
+                    </a>
+                    <p class="text-gray-400 mb-6 leading-relaxed">
+                        Menghadirkan kelezatan masakan nusantara yang autentik, higienis, dan terjangkau bagi seluruh keluarga Indonesia.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-primary-500 transition-colors"><i class="fab fa-instagram text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-primary-500 transition-colors"><i class="fab fa-facebook text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-primary-500 transition-colors"><i class="fab fa-whatsapp text-xl"></i></a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Links (Restricted) -->
+                <div class="col-span-1">
+                    <h3 class="font-bold text-lg mb-6 text-white">Informasi</h3>
+                    <ul class="space-y-4 text-gray-400">
+                        <li><a href="blog.html" class="hover:text-primary-500 transition-colors">Blog</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Legal (Restricted) -->
+                <div class="col-span-1">
+                    <h3 class="font-bold text-lg mb-6 text-white">Legal</h3>
+                    <ul class="space-y-4 text-gray-400">
+                        <li><a href="privacy.html" class="hover:text-primary-500 transition-colors">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="hover:text-primary-500 transition-colors">Terms of Service</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Contact -->
+                <div class="col-span-1">
+                    <h3 class="font-bold text-lg mb-6 text-white">Hubungi Kami</h3>
+                    <ul class="space-y-4 text-gray-400">
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-primary-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                            <span>testing@example.com</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-primary-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            <span>Jl. Raya Nusantara No. 123, Jakarta, Indonesia</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center">
+                <p class="text-gray-500 text-sm">&copy; 2025 Rumah Makan Sederhana. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Functionality -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle and FAQ scripts removed as they are not present in the blog listing page
+            // Smooth Scroll retained for general functionality
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            const headerOffset = 80;
+                            const elementPosition = target.getBoundingClientRect().top;
+                            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                            window.scrollTo({
+                                top: offsetPosition,
+                                behavior: 'smooth'
+                            });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
